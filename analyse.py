@@ -244,8 +244,8 @@ plt.grid(axis="y", linestyle="--", alpha=0.5)
 # Ajuster la présentation
 plt.tight_layout()
 
-# Enregistrer le graphique
-plt.savefig("graphique_actions.png")
+# Enregistrer le graphique des actions dans figures
+plt.savefig("figures/graphique_actions.png")v
 
 # Afficher le graphique
 plt.show()
@@ -289,8 +289,8 @@ plt.grid(axis="x", linestyle="--", alpha=0.5)
 # Ajuster la présentation
 plt.tight_layout()
 
-# Enregistrer le graphique
-plt.savefig("graphique_scans.png")
+# Enregistrer le graphique des scans dans figures
+plt.savefig("figures/graphique_scans.png")
 
 # Afficher le graphique
 plt.show()
@@ -373,8 +373,8 @@ plt.grid(axis="x", linestyle="--", alpha=0.5)
 # Améliorer la présentation
 plt.tight_layout()
 
-# Enregistrer notre troisième graphique
-plt.savefig("graphique_volumes.png")
+# Enregistrer le graphique des volumes dans figures
+plt.savefig("figures/graphique_volumes.png")
 
 # Afficher le graphique dans JupyterLab
 plt.show()
